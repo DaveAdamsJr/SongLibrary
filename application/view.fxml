@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.textfield.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+	<ListView fx:id="lv"
+		AnchorPane.topAnchor = "15"
+		AnchorPane.leftAnchor = "15"
+		AnchorPane.rightAnchor = "15"
+		AnchorPane.bottomAnchor = "130"/>
+
+	<Text text="Song"
+		AnchorPane.leftAnchor="50"
+		AnchorPane.bottomAnchor="100"/>
+	<Text text="Artist"
+		AnchorPane.leftAnchor="155"
+		AnchorPane.bottomAnchor="100"/>
+	<Text text="Album"
+		AnchorPane.leftAnchor="240"
+		AnchorPane.bottomAnchor="100"/>
+	<Text text="Year"
+		AnchorPane.leftAnchor="322"
+		AnchorPane.bottomAnchor="100"/>
+
+	<Text text="Edit:"
+		AnchorPane.leftAnchor="10"
+		AnchorPane.bottomAnchor="80"/>
+	<TextField id="editsongname" fx:id="editsongname"
+		maxWidth="100"
+		AnchorPane.bottomAnchor="75"
+		AnchorPane.leftAnchor="40"/>
+	<TextField id="editartist" fx:id="editartist"
+		maxWidth="80"
+		AnchorPane.bottomAnchor="75"
+		AnchorPane.leftAnchor="145"/>
+	<TextField id="editalbum" fx:id="editalbum"
+		maxWidth="80"
+		AnchorPane.bottomAnchor="75"
+		AnchorPane.leftAnchor="230"/>
+	<TextField id="edityear" fx:id="edityear"
+		maxWidth="50"
+		AnchorPane.bottomAnchor="75"
+		AnchorPane.leftAnchor="315"/>
+	<Button id="editcxbutton" text="Cancel"
+		fx:id="editcxbutton"
+		AnchorPane.leftAnchor="382"
+		AnchorPane.bottomAnchor="76"/>
+	<Button id="editbutton" text="Save"
+	 	fx:id="editbutton"
+		AnchorPane.leftAnchor="440"
+		AnchorPane.bottomAnchor="76"/>
+	<Button id="deletebutton" text="Delete"
+	 	fx:id="deletebutton"
+		AnchorPane.leftAnchor="515"
+		AnchorPane.bottomAnchor="76"/>
+
+	<Text text="Song"
+		AnchorPane.leftAnchor="50"
+		AnchorPane.bottomAnchor="50"/>
+	<Text text="Artist"
+		AnchorPane.leftAnchor="155"
+		AnchorPane.bottomAnchor="50"/>
+	<Text text="Album"
+		AnchorPane.leftAnchor="240"
+		AnchorPane.bottomAnchor="50"/>
+	<Text text="Year"
+		AnchorPane.leftAnchor="322"
+		AnchorPane.bottomAnchor="50"/>
+
+	<Text text="Add:"
+		AnchorPane.leftAnchor="10"
+		AnchorPane.bottomAnchor="30"/>
+	<TextField id="addsongname" fx:id="addsongname"
+		maxWidth="100"
+		AnchorPane.bottomAnchor="25"
+		AnchorPane.leftAnchor="40"/>
+	<TextField id="editartist" fx:id="addartist"
+		maxWidth="80"
+		AnchorPane.bottomAnchor="25"
+		AnchorPane.leftAnchor="145"/>
+	<TextField id="addalbum" fx:id="addalbum"
+		maxWidth="80"
+		AnchorPane.bottomAnchor="25"
+		AnchorPane.leftAnchor="230"/>
+	<TextField id="addyear" fx:id="addyear"
+		maxWidth="50"
+		AnchorPane.bottomAnchor="25"
+		AnchorPane.leftAnchor="315"/>
+	<Button id="addcxbutton" text="Cancel"
+		fx:id="addcxbutton"
+		AnchorPane.leftAnchor="382"
+		AnchorPane.bottomAnchor="26"/>
+	<Button id="addbutton" text="Add"
+	 	fx:id="addbutton"
+		AnchorPane.leftAnchor="440"
+		AnchorPane.bottomAnchor="26"/>
+</AnchorPane>
